@@ -137,6 +137,7 @@ a:active {
 }
 #items h3 {
   margin-top: 13px;
+  font-size: 2em;
   color: #666;
 }
 .recipe-item {
