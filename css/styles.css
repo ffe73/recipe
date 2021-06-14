@@ -16,7 +16,7 @@
 */
 
 body {
-  background-color: #a44c9f;
+  background-color: #a54c9f;
   color: #666;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -178,7 +178,7 @@ table {
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .recipe-info i {
-  color: #a44c9f;
+  color: #a54c9f;
 }
 .recipe-ingredients {
   background-color: #f9f9f9;
@@ -211,7 +211,7 @@ table {
   font-size: 13px;
   line-height: 37px;
   font-weight: 600;
-  background: #a44c9f;
+  background: #a54c9f;
   color: #f9f9f9;
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -251,7 +251,7 @@ table {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #a44c9f;
+    background: #a54c9f;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -270,7 +270,7 @@ table {
 }
 .recipe-directions li:hover:after{
     left: -.5em;
-    border-left-color: #a44c9f;
+    border-left-color: #a54c9f;
 }
 
 /*
@@ -279,7 +279,7 @@ table {
 */
 
 footer {
-  background-color: #a44c9f;
+  background-color: #a54c9f;
   color: #f9f9f9;
   margin-bottom: 25px;
   margin-top: 25px;
