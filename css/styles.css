@@ -1,6 +1,6 @@
 /*
 ** Fonts
-** -----------------------------------------------------------------------------
+** ----------------------------------------------------------------------
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
@@ -63,7 +63,7 @@ table {
 
 /*
 ** Page header
-** -----------------------------------------------------------------------------
+** ----------------------------------------------------------------------
 */
 
 #logo {
@@ -94,8 +94,8 @@ table {
 
 
 /*
-** Recipes Items
-** -----------------------------------------------------------------------------
+** List of recipes
+** ----------------------------------------------------------------------
 */
 
 #items {
@@ -128,7 +128,7 @@ table {
 
 /*
 ** Recipe Section
-** -----------------------------------------------------------------------------
+** ----------------------------------------------------------------------
 */
 
 #recipe {
@@ -227,23 +227,6 @@ table {
 .recipe-directions ol ol {
     margin: 0 0 0 2em;
 }
-.recipe-directions li {
-    position: relative;
-    display: block;
-    padding: .4em .4em .4em .8em;
-    *padding: .4em;
-    margin: .5em 0 .5em 2.5em;
-    background: #f9f9f9;
-    color: #222;
-    text-decoration: none;
-    transition: all .3s ease-out;
-    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-    box-shadow: 0 1px 0 rgba(0,0,0,.15);
-}
-.recipe-directions li:hover{
-    background: #f1f1f1;
-}
 .recipe-directions li:before{
     content: counter(li);
     counter-increment: li;
@@ -259,6 +242,20 @@ table {
     font-weight: bold;
     color: #f9f9f9;
 }
+.recipe-directions li {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em .8em;
+    *padding: .4em;
+    margin: .5em 0 .5em 2.5em;
+    background: #f9f9f9;
+    color: #222;
+    text-decoration: none;
+    transition: all .3s ease-out;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+}
 .recipe-directions li:after{
     position: absolute;
     content: '';
@@ -268,14 +265,17 @@ table {
     margin-top: -.5em;
     transition: all .3s ease-out;
 }
+.recipe-directions li:hover{
+    background: #f1f1f1;
+}
 .recipe-directions li:hover:after{
     left: -.5em;
     border-left-color: #a54c9f;
 }
 
 /*
-** Website Footer
-** -----------------------------------------------------------------------------
+** Page Footer
+** ----------------------------------------------------------------------
 */
 
 footer {
