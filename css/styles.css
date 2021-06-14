@@ -45,6 +45,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a:link {
+  color: #a54c9f;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #a54c9f;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #a54c9f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: #a54c9f;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /*
 ** Fade in the whole page
