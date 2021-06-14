@@ -8,7 +8,3 @@ $(window).ready(function() {
   $("#splash").fadeOut();
 });
 
-var audio = new Audio('mp3/yes.mp3');
-document.getElementById(".img1").addEventListener("mouseOver", function() {
-  audio.play();
-});
