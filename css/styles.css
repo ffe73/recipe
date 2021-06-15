@@ -103,7 +103,7 @@ a:active {
   background-image:
     radial-gradient(rgba(120, 0, 120, 0.15),
     rgba(120, 0, 120, 0.75)),
-    url("../images/kitchen-banner.jpg");
+    url("../images/banner.jpg");
 }
 #logo img {
   height: 100px;
@@ -137,7 +137,7 @@ a:active {
 }
 #items h3 {
   margin-top: 13px;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #666;
 }
 .recipe-item {
