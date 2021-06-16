@@ -8,3 +8,6 @@ $(window).ready(function() {
   $("#splash").fadeOut();
 });
 
+function playAudio() {
+  audio.play();
+}
