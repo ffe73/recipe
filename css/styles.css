@@ -197,6 +197,7 @@ a:active {
   background-color: #f1f1f1;
   margin-top: 25px;
 }
+/* format the picture */
 .recipe-picture {
   height: auto;
   max-width: 100%;
@@ -218,6 +219,7 @@ a:active {
     0px 0px 0px 18px rgba(0,0,0,0.2),
     6px 6px 8px 17px #555;
 }
+/* format the info section */
 .recipe-info .row {
   padding-top: 6px;
   padding-bottom: 6px;
@@ -227,6 +229,7 @@ a:active {
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
+/* for the icons in the info section */
 .recipe-info i {
   color: #a54c9f;
 }
@@ -234,6 +237,7 @@ a:active {
   background-color: #f9f9f9;
   margin-top: 25px;
 }
+/* for the ingredients list */
 .ingredients-list dl {
   display: inline-block;
   width: 100%;
@@ -241,6 +245,7 @@ a:active {
   margin: 0;
   overflow: hidden;
 }
+/* first column of the ingredients list */
 .ingredients-list dt {
   width: 10%;
   float: left;
@@ -253,6 +258,7 @@ a:active {
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
+/* second column of the ingredients list */
 .ingredients-list dd {
   width: 90%;
   float: left;
@@ -267,6 +273,7 @@ a:active {
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
+/* preparation */
 .recipe-directions ol {
     counter-reset: li;
     list-style: none;
@@ -277,6 +284,8 @@ a:active {
 .recipe-directions ol ol {
     margin: 0 0 0 2em;
 }
+/* for the lines in the preparation steps */
+/* before, at the line, and after it */
 .recipe-directions li:before{
     content: counter(li);
     counter-increment: li;
@@ -315,6 +324,7 @@ a:active {
     margin-top: -.5em;
     transition: all .3s ease-out;
 }
+/* animation by hovering */
 .recipe-directions li:hover{
     background: #f1f1f1;
 }
