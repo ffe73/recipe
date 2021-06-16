@@ -31,7 +31,9 @@
 </head>
 
 <body>
-
+  <script>
+    var audio = new Audio('mp3/no.mp3');
+  </script>
   <!-- Splash Screen
        ============= 
        see splash section in styles.css    
@@ -64,7 +66,7 @@
        fadeIn is the animation from animate.css
        and wow is a java script library for revealing the animation
        only when the scroll in the visible area of the browser.
-       
+
   -->
   <section id="items">
     <div class="container">
@@ -78,7 +80,7 @@
         <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
           <div class="recipe-item text-center">
             <a href="Nudelsalat.html">
-              <img src="images/Nudelsalat.jpg" alt="Nudelsalat" />
+              <img src="images/Nudelsalat.jpg" alt="Nudelsalat" onclick="playAudio()" />
             </a>
             <br />
             <h3>Warm Pasta Salad</h3>
@@ -88,7 +90,7 @@
         <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
           <div class="recipe-item text-center">
             <a href="Nicecream.html">
-              <img src="images/Nicecream.jpg" alt="Nicecream" />
+              <img src="images/Nicecream.jpg" alt="Nicecream" onclick="playAudio()" />
             </a>
             <br />
             <h3>Coconut-Raspberries Nicecream</h3>
@@ -98,7 +100,7 @@
         <div class="col-lg-4 col-md-6 col-sm-12 wow fadeIn">
           <div class="recipe-item text-center">
             <a href="Spaghetti.html">
-              <img src="images/Spaghetti.jpg" alt="Spaghetti" />
+              <img src="images/Spaghetti.jpg" alt="Spaghetti" onclick="playAudio()" />
             </a>
             <br />
             <h3>Spaghetti with Pesto</h3>
