@@ -1,6 +1,8 @@
 /*
 ** Fonts
 ** ----------------------------------------------------------------------
+** All the fonts user are located in the same web server as the 
+** homepage
 */
 
 @font-face {
@@ -19,6 +21,8 @@
 /*
 ** Base style
 ** ----------------------------------------------------------------------
+** clearing pressets
+** changing the color of the anchor tag
 */
 
 body {
@@ -75,21 +79,27 @@ a:active {
 /*
 ** Fade in the whole page
 ** ----------------------------------------------------------------------
+** only once at page load
 */
 
 #splash {
   position: fixed;
   background: #fff;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
+  top: 0;
+  left: 0;
   z-index: 42;
 }
 
 /*
 ** Page header
 ** ----------------------------------------------------------------------
+** This comes outside the container from bootstrap, so it is so wide
+** as the browser is. That is why the banner occupies the whole browser
+** width. We are using a different font here.
+** The section id is named logp
+** This applies to every html file.
 */
 
 #logo {
@@ -122,6 +132,11 @@ a:active {
 /*
 ** List of recipes
 ** ----------------------------------------------------------------------
+** This applies to the list of recipes, with pictures, in the file
+** index.html
+** the section id is named items
+** each recipe with picture is located inside a div tag with class 
+** named recipe-item
 */
 
 #items {
@@ -156,6 +171,14 @@ a:active {
 /*
 ** Recipe Section
 ** ----------------------------------------------------------------------
+** The section id name is recipe
+** the div tags for the individual html files, one for each recipe
+** have class names: recipe-picture, recipe-info, .recipe-ingredients
+** and recipe-directions.
+** The tags dt and dd make the formatting of the two columns of the
+** ingredients list
+** for the preparation steps the tags ol and li are user. li is also a 
+** counter for the preparation steps
 */
 
 #recipe {
@@ -175,10 +198,15 @@ a:active {
   margin-top: 25px;
 }
 .recipe-picture {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
   margin-bottom: 25px;
   margin-top: 6px;
+  box-shadow:
+    0px 0px 0px 2px rgba(0,0,0,0.6),
+    0px 0px 0px 14px #fff,
+    0px 0px 0px 18px rgba(0,0,0,0.2),
+    6px 6px 8px 17px #555;
   -webkit-box-shadow:
     0px 0px 0px 2px rgba(0,0,0,0.6),
     0px 0px 0px 14px #fff,
@@ -189,16 +217,11 @@ a:active {
     0px 0px 0px 14px #fff,
     0px 0px 0px 18px rgba(0,0,0,0.2),
     6px 6px 8px 17px #555;
-  box-shadow:
-    0px 0px 0px 2px rgba(0,0,0,0.6),
-    0px 0px 0px 14px #fff,
-    0px 0px 0px 18px rgba(0,0,0,0.2),
-    6px 6px 8px 17px #555;
 }
 .recipe-info .row {
-  margin-top: 13px;
   padding-top: 6px;
   padding-bottom: 6px;
+  margin-top: 13px;
   background-color: #f9f9f9;
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -226,9 +249,9 @@ a:active {
   font-size: 13px;
   line-height: 37px;
   background: #f9f9f9;
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .ingredients-list dd {
   width: 90%;
@@ -240,9 +263,9 @@ a:active {
   font-weight: 600;
   background: #a54c9f;
   color: #f9f9f9;
+  box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px 0 rgba(0,0,0,.15);
-  box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .recipe-directions ol {
     counter-reset: li;
@@ -303,6 +326,10 @@ a:active {
 /*
 ** Page Footer
 ** ----------------------------------------------------------------------
+** Section id is named footer
+** the tags with class names footer-about and footer-author are 
+** user for the columns.
+** this applies to every html file.
 */
 
 footer {
@@ -323,7 +350,4 @@ footer {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
-.footer-author a {
-  color: #f9f9f9;
-  font-weight: bold;
-}
+
